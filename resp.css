@@ -1,0 +1,155 @@
+/* 
+.shop-section
+{
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+} 
+*/
+
+.hero-section
+{
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-color: #D4A3D2;
+}
+.panel3
+{
+    width:250px;
+}
+.footer3 ul
+{
+        padding-left:2%;
+}
+@media screen and (max-width: 920px)
+{
+    
+    .footer3
+    {
+        font-size: 15px;
+        padding:50px 10px;
+    }
+    .footer3 a
+    {
+        font-size: 13px;
+    };
+}
+@media screen and (max-width: 920px)
+{
+    /* body
+        padding-top: 362px;
+    } */
+    .navbar
+    {
+        flex-direction: column;
+        align-items: start;
+        height: auto;
+    }
+    .box3 
+    {
+        margin:0;
+        width:30%;
+    }
+    .box4
+    {
+        margin:0;
+    }
+    .burger
+    {
+        display: block;
+    }
+    .h-nav-resp
+    {
+        height: 60px;
+    }
+    .v-class-resp
+    {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 664px)
+{
+    .hero-msg
+    {
+        font-size: 10px;
+        padding:15px 0;
+    }
+    .panel
+    {
+        flex-direction: column;
+        height: auto;
+        font-size: 13px;
+    }
+    .panel2
+    {
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer3
+    {
+        height: auto;
+        font-size: 12px;
+        padding:50px 5px;
+    }
+    .footer3 a
+    {
+        font-size: 10px;
+    };
+    .footer4
+    {
+        flex-direction: column;
+    }
+    .foot4-lang
+    {
+        margin:0;
+    }
+}
+@media screen and (max-width: 479px)
+{
+    .panel
+    {
+        font-size: 12px;
+    }
+    .footer5
+    {
+        font-size: 10px;
+        height: auto;
+    }
+    .foot-line1
+    {
+        height: auto;
+    }
+    .footer5 span
+    {
+        height: auto;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    .cards
+    {
+        height: auto;
+        width: auto;
+    }
+
+    h2{
+        font-size: 15px;
+        margin-left:10px;
+    }
+    .image
+    {
+        width:179px;
+        height: 179px;
+        background-size: cover;
+        margin: 10px;
+    }
+    p
+    {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+}
